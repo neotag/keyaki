@@ -1,5 +1,5 @@
-My First Article.
-=================
+My First Entry.
+===============
 
 ```javascript
 alert('Hellow world!')
