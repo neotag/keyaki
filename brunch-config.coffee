@@ -10,8 +10,11 @@ exports.config =
       joinTo: 'stylesheets/app.css'
 
     templates:
-      joinTo: 'javascripts/app.js'
+      joinTo:
+        'javascripts/app.js': /^app/
 
   plugins:
     sass:
       debug: 'comments'
+  marked:
+    gfm: true
